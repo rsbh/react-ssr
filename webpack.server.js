@@ -2,11 +2,12 @@ const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
-    entry : './src/App.js',
+    entry : './server/index.js',
     output: {
-        path: path.resolve(__dirname, 'client/dist'),
-        filename: 'bundle.js'
+        path: path.resolve(__dirname, 'server'),
+        filename: 'server.js'
     },
+    target: "node",
     module: {
         loaders : [
             {

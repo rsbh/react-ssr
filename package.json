@@ -4,10 +4,10 @@
   "description": "Basic example for react server side rendering",
   "main": "index.js",
   "scripts": {
-    "start-server": "node server/index.js",
-    "start-client": "node client/index.js",
-    "build-dev": "webpack -w",
-    "build-prod": "webpack -p"
+    "start-client": "node client/client.js",
+    "start-server": "node server/server.js",
+    "build-client": "webpack --config webpack.client.js",
+    "build-server": "webpack --config webpack.server.js"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
