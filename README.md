@@ -1,4 +1,6 @@
 # React Server Side Rendering
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr?ref=badge_shield)
+
 
 Basic React App with Client and Server Side Rendering
 
@@ -54,3 +56,6 @@ Basic React App with Client and Server Side Rendering
 * babel-loader
 * babel-preset-env
 * babel-preset-react
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr?ref=badge_large)
