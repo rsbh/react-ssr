@@ -1,5 +1,6 @@
 # React Server Side Rendering
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr?ref=badge_shield)[![Dependency Status](https://david-dm.org/rishabh09/react-ssr.svg)](https://david-dm.org/rishabh09/react-ssr) [![devDependencies Status](https://david-dm.org/rishabh09/react-ssr/dev-status.svg)](https://david-dm.org/rishabh09/react-ssr?type=dev)
+
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr?ref=badge_shield) [![Dependency Status](https://david-dm.org/rishabh09/react-ssr.svg)](https://david-dm.org/rishabh09/react-ssr) [![devDependencies Status](https://david-dm.org/rishabh09/react-ssr/dev-status.svg)](https://david-dm.org/rishabh09/react-ssr?type=dev)
 
 
 
@@ -67,3 +68,6 @@ Basic React App with Client and Server Side Rendering
 * babel-loader
 * babel-preset-env
 * babel-preset-react
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Frishabh09%2Freact-ssr?ref=badge_large)
