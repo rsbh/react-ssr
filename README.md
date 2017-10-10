@@ -48,11 +48,11 @@ Basic React App with Client and Server Side Rendering
 
 - [ ] Routing with react-router-4
 - [ ] Support for redux
-- [ ] Fix Folder Structure
+- [ ] Fix Project Structure
 - [ ] Add Eslint (airbnb)
 - [ ] Style and File Loaders
 - [ ] Code Splitting
-- [ ] Async Api calls for ssr
+- [ ] Async API calls for server-side-rendering
 
 ## Dependencies
 
