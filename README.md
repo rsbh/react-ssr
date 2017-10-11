@@ -54,6 +54,7 @@ Basic React App with Client and Server Side Rendering
 - [ ] Style and File Loaders
 - [ ] Code Splitting
 - [ ] Async API calls for server-side-rendering
+- [ ] Seperate webpack config for client (dev, prod) and server with `webpack-merge`
 
 ## Dependencies
 
