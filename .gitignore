@@ -58,3 +58,4 @@ typings/
 .env
 
 /dist/public/bundle.js
+/server/server.js
