@@ -1,0 +1,8 @@
+root = true
+
+[src/**.js]
+indent_size = 2
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_size = 2

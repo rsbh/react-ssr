@@ -4,17 +4,17 @@
   "description": "Basic example for react server side rendering",
   "main": "index.js",
   "scripts": {
-    "start-client": "node client/client.js",
-    "start-server": "node server/server.js",
-    "build-client": "webpack --config webpack.client.js",
-    "build-server": "webpack --config webpack.server.js",
+    "start-server": "node server/index.js",
+    "build-dev": "webpack --config webpack.dev.js",
     "lint": "esw webpack.* src --color",
-    "lint-watch": "npm run lint -- --watch"
+    "lint-watch": "npm run lint -- --watch",
+    "start": "npm run build-dev && npm run start-server"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
   "dependencies": {
     "express": "4.16.2",
+    "import-export": "1.0.1",
     "react": "16.0.0",
     "react-dom": "16.0.0",
     "react-router-dom": "4.2.2"
@@ -23,6 +23,7 @@
     "babel-core": "6.26.0",
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.0",
+    "babel-preset-es2015": "6.24.1",
     "babel-preset-react": "6.24.1",
     "eslint": "4.8.0",
     "eslint-config-standard": "10.2.1",
