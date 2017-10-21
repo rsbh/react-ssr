@@ -5,12 +5,11 @@ const baseConfig = require('./webpack.base')
 
 
 const config = {
-    target: "node",
-    entry : './server/index.js',
-    output: {
-        path: path.resolve(__dirname, 'dist'),
-        filename: 'server.js'
-    }
+  entry: './src/index.js',
+  output: {
+    path: path.resolve(__dirname, 'public'),
+    filename: 'bundle.js'
+  }
 }
 
 module.exports = merge(baseConfig, config)

@@ -21,26 +21,20 @@ Basic React App with Client and Server Side Rendering
     npm install
 ```
 
-3. ### To Run Client Side Rendering
+3. ### Build Client bundle file
 
-    Build the Client bundle file
     ```
         npm run build-client
     ```
 
-    Run Client-Side-Rendering Server
-    ```
-        npm run start-client
-    ```
+4. ### Build Server bundle file
 
-4. ### To Run Server Side Rendering
-
-    Build the Server bundle file
     ```
         npm run build-server
     ```
 
-    Run Server-Side-Rendering Server
+5. ### Run server
+
     ```
         npm run start-server
     ```
@@ -54,7 +48,7 @@ Basic React App with Client and Server Side Rendering
 - [ ] Style and File Loaders
 - [ ] Code Splitting
 - [ ] Async API calls for server-side-rendering
-- [ ] Seperate webpack config for client (dev, prod) and server with `webpack-merge`
+- [x] Seperate webpack config for client (dev, prod) and server with `webpack-merge`
 
 ## Dependencies
 | **Package** | **Current Version**|**Lastest Version** |

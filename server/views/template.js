@@ -4,10 +4,10 @@ export default ({ body }) => {
     <html>
       <head>
         <title>React Server Side Rendering</title>
-        <link rel="stylesheet" href="/assets/index.css" />
       </head>
       <body>
         <div id="root">${body}</div>
+        <script src="bundle.js"></script>
       </body>      
     </html>
   `
