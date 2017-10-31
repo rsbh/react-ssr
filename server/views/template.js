@@ -6,8 +6,8 @@ export default ({ body }) => {
         <title>React Server Side Rendering</title>
       </head>
       <body>
-        <div id="root">${body}</div>
-        <script src="bundle.js"></script>
+        <div id="app">${body}</div>
+        <script src="bundle.js" defer></script>
       </body>      
     </html>
   `

@@ -9,7 +9,7 @@
     "build-server": "webpack --config webpack.server.js",
     "lint": "esw webpack.* src --color",
     "lint-watch": "npm run lint -- --watch",
-    "start": "npm run build-dev && npm run start-server"
+    "start": "npm run build-client && npm run build-server && npm run start-server"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
