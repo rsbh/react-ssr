@@ -4,12 +4,13 @@
   "description": "Basic example for react server side rendering",
   "main": "index.js",
   "scripts": {
-    "start-server": "node dist/server.js",
-    "build-client": "webpack --config webpack.client.js",
-    "build-server": "webpack --config webpack.server.js",
+    "dev:start-server": "nodemon dist/server.js --watch dist",
+    "dev:build-client": "webpack --config webpack.client.js --watch",
+    "dev:build-server": "webpack --config webpack.server.js --watch",
     "lint": "esw webpack.* src --color",
     "lint-watch": "npm run lint -- --watch",
-    "start": "npm run build-client && npm run build-server && npm run start-server"
+    "dev": "npm-run-all --parallel dev:*",
+    "start": "node dist/server.js"
   },
   "author": "Rishabh Mishra",
   "license": "MIT",
@@ -35,6 +36,8 @@
     "eslint-plugin-react": "7.4.0",
     "eslint-plugin-standard": "3.0.1",
     "eslint-watch": "3.1.2",
+    "nodemon": "1.12.1",
+    "npm-run-all": "4.1.1",
     "webpack": "3.6.0",
     "webpack-merge": "4.1.0"
   }
