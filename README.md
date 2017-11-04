@@ -21,23 +21,11 @@ Basic React App with Client and Server Side Rendering
     npm install
 ```
 
-3. ### Build Client bundle file
+3. ### Run develpoment server
 
-    ```
-        npm run build-client
-    ```
-
-4. ### Build Server bundle file
-
-    ```
-        npm run build-server
-    ```
-
-5. ### Run server
-
-    ```
-        npm run start-server
-    ```
+```
+    npm run dev
+```
 
 ## TODO
 
