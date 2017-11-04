@@ -21,11 +21,11 @@ Basic React App with Client and Server Side Rendering
     npm install
 ```
 
-2. ### Run develpoment server
+3. ### Run develpoment server
 
-    ```
-        npm run dev
-    ```
+```
+    npm run dev
+```
 
 ## TODO
 
